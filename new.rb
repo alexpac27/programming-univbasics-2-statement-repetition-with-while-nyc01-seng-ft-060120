@@ -1,5 +1,5 @@
-count = 2
-while count < 200
+count = 20000
+while count > 0
   puts count
-  count *= 3
+  count /= 3
 end
